@@ -108,6 +108,7 @@ export function SignupModal({ open, onOpenChange }: SignupModalProps) {
                                 className="bg-zinc-800 border-white/10 text-white placeholder:text-zinc-500 focus:border-white/20 focus:ring-white/20"
                                 required
                                 disabled={isLoading}
+                                autoComplete="name"
                             />
                         </div>
 
@@ -122,6 +123,7 @@ export function SignupModal({ open, onOpenChange }: SignupModalProps) {
                                 className="bg-zinc-800 border-white/10 text-white placeholder:text-zinc-500 focus:border-white/20 focus:ring-white/20"
                                 required
                                 disabled={isLoading}
+                                autoComplete="email"
                             />
                         </div>
 
@@ -136,6 +138,7 @@ export function SignupModal({ open, onOpenChange }: SignupModalProps) {
                                 className="bg-zinc-800 border-white/10 text-white placeholder:text-zinc-500 focus:border-white/20 focus:ring-white/20"
                                 required
                                 disabled={isLoading}
+                                autoComplete="new-password"
                             />
                         </div>
 
